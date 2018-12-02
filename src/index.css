@@ -1,0 +1,126 @@
+* {
+    font-family: helvetica;
+}
+
+body {
+    background-color: #DDD;
+}
+
+/* #######################
+   ## blog title #########
+   ####################### */
+header a {
+    text-decoration: none;
+    text-shadow: 4px 4px 12px #BBB;
+}
+
+header a:hover { /* accentuate shadow when hovered */
+    text-shadow: 4px 4px 12px #999;
+}
+
+header h1 {
+    color: #222;
+    font-size: 7em;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+
+
+/* #######################
+   ## navigation bar #####
+   ####################### */
+nav {
+    background-color: #333;
+    width: 100%;
+    padding: 2px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 5px;
+}
+
+nav a {
+    font-size: 2em;
+    color: #BBB;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+
+nav a:hover { /* change color and make bigger when hovered */
+    color: #DDD;
+    font-size: 2.2em;
+}
+
+
+/* #######################
+   ## article ############
+   ####################### */
+.article {
+    position: relative;
+}
+
+.article img {
+    width: 100%;
+    display: block;
+}
+
+.article h2 {
+    color: #DDD;
+    font-size: 2em;
+    text-shadow: 4px 4px 20px #DDD;
+    
+    text-align: right;
+    margin: 0;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.article h2:hover { /* accentuate shadow and make bigger when hovered */
+    color: #EEE;
+    font-size: 2.3em;
+    text-shadow: 4px 4px 12px #EEE;
+}
+
+
+/* #######################
+   ## team section #######
+   ####################### */
+.team {
+    display: flex;
+    justify-content: center;
+    background-color: #CCC;
+    margin: 100px 0px 10px 0px;
+}
+
+.team p {
+    color: #444;
+    text-align: center;
+
+    padding: 2px 20px 2px 20px;
+    margin: 0px;
+}
+
+.team img {
+    width: 40%;
+    height: 40%;
+}
+
+
+/* #######################
+   ## contact section ####
+   ####################### */
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 30px 0px;
+}
+
+footer img {
+    padding: 5px 8px 5px 8px;
+}
