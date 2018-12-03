@@ -1,13 +1,13 @@
 # todo list
 
-| emoji       | meaning                      |
-| :---------: | :--------------------------- |
-| :sos:       | critical bug                 |
-| :warning:   | bug                          |
-| :eyes:      | to check                     |
-| :flashlight:| simplification/clarification |
-| :sparkles:  | typos and style              |
-| :tada:      | new feature                  |
+| emoji        | meaning        | code           |
+| :----------: | :------------- | :------------- |
+| :sos:        | critical bug   | `:sos:`        |
+| :warning:    | bug            | `:warning:`    |
+| :eyes:       | to check       | `:eyes:`       |
+| :flashlight: | simplification | `:flashlight:` |
+| :sparkles:   | typos & style  | `:sparkles:`   |
+| :tada:       | new feature    | `:tada:`       |
 
 ### git
 - [ ] :eyes: check `.gitignore`
