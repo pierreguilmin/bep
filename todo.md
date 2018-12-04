@@ -9,8 +9,10 @@
 | :sparkles:   | typos & style  | `:sparkles:`   |
 | :tada:       | new feature    | `:tada:`       |
 
+
+
 ### git
-- [ ] :eyes: check `.gitignore`
+- [x] :eyes: check `.gitignore`
 
 
 ### `index.css`
@@ -19,6 +21,7 @@
 
 
 ### new frontend ideas
+- [ ] :tada: website titlebar logo (`<link rel="shortcut icon" href="/favicon.ico" />` in `<head>` section)
 - [ ] :tada: science difficulty levels indicated by stars for each article sections
 - [ ] :tada: small icons "warning, maths incoming!" or "ouuups, we're gonna dooo physiics :O"
 - [ ] :tada: loading progression logo while reading (like in TechCrunch)
