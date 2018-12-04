@@ -1,6 +1,6 @@
 # mac specific
-.DS_Store
+**/.DS_Store
 
 # miscellaneous files directory
-misc/*
-!*/.gitkeep
+misc/**
+!misc/.gitkeep
