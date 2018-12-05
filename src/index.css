@@ -130,10 +130,15 @@ nav a:hover { /* change color and make bigger when hovered */
 footer {
     display: flex;
     justify-content: center;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 5px 0px;
 }
 
 footer img {
-    padding: 0px 25px 0px 25px;
+    margin: 5px 25px 5px 25px;
     width: 35px;
+}
+
+footer img:hover {
+    margin: 2.5px 22.5px 0px 22.5px;
+    width: 40px;
 }
