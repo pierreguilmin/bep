@@ -1,10 +1,17 @@
-:construction: work in progress... :construction:
+<!-- top centered logo with link to web page -->
+<p align="center">
+    <a href="src/index.html">
+        <img height="100px" src="src/resources/bep_icon/bep_icon.svg">
+    </a>
+</p>
 
-# ⏣ bǝρ² ⏣
+<br/>
 
-**Welcome on the ⏣ bǝρ² ⏣ Git repository!**
+**Welcome on the bǝρ² Git repository!**
 
 ~The project is stable, ready for production and the website is accessible at [http://www.bep.com]()!~
+
+:construction: work in progress... :construction:
 
 ***
 

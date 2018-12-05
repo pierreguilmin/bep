@@ -11,6 +11,7 @@
 
 ### general
 - [x] :eyes: check all images author rights
+- [ ] :eyes: try to make icon top straight line transparent
 
 ### git
 - [x] :eyes: check `.gitignore`
