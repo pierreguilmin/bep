@@ -9,6 +9,9 @@
 | :sparkles:   | typos & style  | `:sparkles:`   |
 | :tada:       | new feature    | `:tada:`       |
 
+### general
+- [x] :eyes: check all images author rights
+
 ### git
 - [x] :eyes: check `.gitignore`
 
@@ -27,4 +30,3 @@
 - [ ] :tada: newsletter and mail adress dropping
 - [ ] :tada: translate website in english & spanish
 - [ ] :tada: find a license for the articles
-- [ ] :eyes: check all images author rights
