@@ -12,8 +12,8 @@
 ### general
 - [x] :eyes: check all images author rights
 - [x] :eyes: work on logo police
-- [ ] :eyes: try to make icon top straight line transparent
-- [ ] :tada: add logo reference and inspiration + tools used (https://cloudconvert.com/)
+- [x] :eyes: try to make icon top straight line transparent
+- [x] :tada: add logo reference and inspiration + tool used (https://cloudconvert.com/)
 
 ### git
 - [x] :eyes: check `.gitignore`
