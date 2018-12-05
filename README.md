@@ -5,7 +5,7 @@
     </a>
 </p>
 
-**Welcome on the bǝρ² Git repository!**
+**Welcome on the ƅǝρ² Git repository!**
 
 ~The project is stable, ready for production and the website is accessible at [http://www.bep.com]()!~
 
