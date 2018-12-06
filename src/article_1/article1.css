@@ -1,0 +1,87 @@
+* {
+    font-family: arial;
+}
+
+body {
+    background-color: #DDD;
+}
+
+/* #######################
+   ## blog title #########
+   ####################### */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    text-shadow: 4px 4px 12px #BBB;
+}
+
+header a:hover { /* accentuate shadow when hovered */
+    text-shadow: 4px 4px 12px #999;
+}
+
+header h1 {
+    color: #222;
+    font-size: 7em;
+    font-weight: bold;
+}
+
+
+/* #######################
+   ## navigation bar #####
+   ####################### */
+nav {
+    background-color: #333;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+nav ul {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: left;
+    padding: 0px;
+    margin: 10px;
+}
+
+nav a {
+    font-size: 2em;
+    color: #BBB;
+    text-decoration: none;
+    
+    padding: 0px 10px 0px 10px;
+}
+
+nav a:hover { /* change color and make bigger when hovered */
+    color: #DDD;
+    font-size: 2.2em;
+}
+
+
+/* #######################
+   ## contact section ####
+   ####################### */
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 5px 0px;
+}
+
+footer img {
+    margin: 5px 25px 5px 25px;
+    width: 35px;
+}
+
+footer img:hover {
+    margin: 2.5px 22.5px 0px 22.5px;
+    width: 40px;
+}
