@@ -38,7 +38,6 @@ header h1 {
 /* #######################
    ## contact section ####
    ####################### */
-
 .contact {
     position: absolute;
     right: 2%;
@@ -63,7 +62,6 @@ header h1 {
 /* #######################
    ## article ############
    ####################### */
-
 .article {
     position: relative;
 }
@@ -89,6 +87,4 @@ header h1 {
     right: 5%;
     top: 50%;
     transform: translateY(-50%);
-
-    transition: transform 1.5s ease-out 0s;
 }
