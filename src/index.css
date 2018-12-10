@@ -1,18 +1,20 @@
 * {
     font-family: arial;
+    margin: 0px;
 }
 
 body {
-    background-color: #DDD;
+    background-color: #EEE;
 }
+
 
 /* #######################
    ## blog title #########
    ####################### */
 header {
+    position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 header a {
@@ -20,56 +22,48 @@ header a {
     text-shadow: 4px 4px 12px #BBB;
 }
 
-header a:hover { /* accentuate shadow when hovered */
+/* accentuate shadow when hovered */
+header a:hover { 
     text-shadow: 4px 4px 12px #999;
 }
 
 header h1 {
     color: #222;
-    font-size: 7em;
+    font-size: 9em;
     font-weight: bold;
+    margin: 100px;
 }
 
 
 /* #######################
-   ## navigation bar #####
+   ## contact section ####
    ####################### */
-nav {
-    background-color: #333;
 
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    width: 100%;
-    height: 70px;
-}
-
-nav ul {
-    list-style-type: none;
-
-    display: flex;
-    justify-content: left;
-    padding: 0px;
-    margin: 10px;
-}
-
-nav a {
-    font-size: 2em;
-    color: #BBB;
-    text-decoration: none;
+.contact {
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
     
-    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-nav a:hover { /* change color and make bigger when hovered */
-    color: #DDD;
-    font-size: 2.2em;
+.contact img {
+    margin: 15px 5px 15px 5px;
+    height: 40px;
+    transition: transform 0.4s ease 0s;
+}
+
+.contact img:hover {
+    transform: rotate(20deg);
 }
 
 
 /* #######################
    ## article ############
    ####################### */
+
 .article {
     position: relative;
 }
@@ -77,68 +71,24 @@ nav a:hover { /* change color and make bigger when hovered */
 .article img {
     width: 100%;
     display: block;
+    
+    transition: transform 1.5s ease-out 0s;
+}
+
+.article:hover img {
+    transform: scale(1.1);
 }
 
 .article h2 {
-    color: #DDD;
+    color: #EEE;
     font-size: 2em;
     text-shadow: 4px 4px 20px #DDD;
     
     /* position text on image */
     position: absolute;
-    text-align: right;
-    margin: 0px;
     right: 5%;
     top: 50%;
-    transform: translate(0, -50%);
-}
+    transform: translateY(-50%);
 
-.article:hover { /* accentuate shadow and make bigger when hovered */
-    color: #EEE;
-    font-size: 1.5em;
-    text-shadow: 4px 4px 12px #EEE;
-}
-
-
-/* #######################
-   ## team section #######
-   ####################### */
-.team {
-    display: flex;
-    justify-content: center;
-    background-color: #CCC;
-    margin: 100px 0px 10px 0px;
-}
-
-.team p {
-    color: #444;
-    text-align: center;
-
-    padding: 2px 20px 2px 20px;
-    margin: 0px;
-}
-
-.team img {
-    width: 40%;
-    height: 40%;
-}
-
-
-/* #######################
-   ## contact section ####
-   ####################### */
-footer {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0px 5px 0px;
-}
-
-footer img {
-    margin: 5px 25px 5px 25px;
-    width: 35px;
-}
-
-footer img:hover {
-    margin: 2.5px 22.5px 0px 22.5px;
-    width: 40px;
+    transition: transform 1.5s ease-out 0s;
 }
