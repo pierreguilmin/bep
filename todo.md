@@ -21,9 +21,11 @@
 ### `index.css`
 - [ ] :tada: choose police [tuto link](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605329-formatage-du-texte)
 - [ ] :warning: add multiple police choice
+- [ ] :warning: check multiple browser transition compatibility
 
 ### new frontend ideas
-- [ ] :tada: website titlebar logo (`<link rel="shortcut icon" href="/favicon.ico" />` in `<head>` section)
+- [x] :tada: website titlebar logo (`<link rel="shortcut icon" href="/favicon.ico" />` in `<head>` section)
+- [ ] :tada: possibility to show the article intro when hovering it on the front page
 - [ ] :tada: science difficulty levels indicated by stars for each article sections
 - [ ] :tada: small icons "warning, maths incoming!" or "ouuups, we're gonna dooo physiics :O"
 - [ ] :tada: loading progression logo while reading (like in TechCrunch)
