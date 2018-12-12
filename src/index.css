@@ -64,6 +64,7 @@ header h1 {
    ####################### */
 .article {
     position: relative;
+    overflow: hidden;
 }
 
 .article img {
